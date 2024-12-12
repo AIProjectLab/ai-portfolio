@@ -1,7 +1,7 @@
 # Site Settings
 title: "AI Portfolio | Modern Solutions"
 description: "Innovative AI Applications & Services"
-theme: merlot
+theme: jekyll-theme-merlot
 baseurl: ""
 
 # Author Settings
