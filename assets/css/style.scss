@@ -1,0 +1,117 @@
+---
+---
+
+@import "jekyll-theme-merlot";
+
+/* Global Styles */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+}
+
+/* SAAS Platform Showcase */
+.project-showcase {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 30px;
+  margin: 40px 0;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+
+.optimization-score {
+  text-align: center;
+  margin: 20px 0;
+  
+  h2 {
+    color: #6d1b1b;
+    margin-bottom: 10px;
+  }
+}
+
+.score-bar {
+  height: 10px;
+  background: linear-gradient(90deg, #6d1b1b 98%, #ddd 2%);
+  border-radius: 5px;
+  margin: 10px 0;
+}
+
+/* Project Cards */
+.project-card {
+  background: rgba(255, 255, 255, 0.1);
+  border-radius: 15px;
+  padding: 20px;
+  margin: 20px 0;
+  transition: transform 0.3s ease;
+  
+  &:hover {
+    transform: translateY(-5px);
+  }
+}
+
+/* Features Grid */
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  margin: 30px 0;
+}
+
+.feature-item {
+  background: rgba(255, 255, 255, 0.1);
+  padding: 20px;
+  border-radius: 10px;
+  border: 1px solid #6d1b1b;
+  
+  h4 {
+    color: #6d1b1b;
+    margin-bottom: 10px;
+  }
+}
+
+/* Skills Grid */
+.skills-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 15px;
+  margin: 30px 0;
+}
+
+.skill-item {
+  background: rgba(109, 27, 27, 0.1);
+  padding: 10px;
+  border-radius: 5px;
+  text-align: center;
+  border: 1px solid #6d1b1b;
+}
+
+/* Buttons */
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #6d1b1b;
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: all 0.3s ease;
+  
+  &:hover {
+    background: #8f2424;
+    transform: scale(1.05);
+  }
+}
+
+/* Images */
+.project-image {
+  width: 100%;
+  border-radius: 10px;
+  margin: 10px 0;
+  border: 2px solid #6d1b1b;
+}
+
+/* Contact Section */
+.contact-buttons {
+  display: flex;
+  gap: 15px;
+  justify-content: center;
+  margin-top: 20px;
+}

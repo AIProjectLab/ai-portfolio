@@ -1,0 +1,22 @@
+# Site Settings
+title: "AI Portfolio | Modern Solutions"
+description: "Innovative AI Applications & Services"
+theme: jekyll-theme-merlot
+baseurl: ""
+
+# Author Settings
+author:
+  name: "Abdul wahab"
+  bio: "AI Developer & Machine Learning Specialist"
+  github: "aiprojectlab"
+
+# Google Analytics (optional)
+google_analytics: "UA-XXXXXXXXX-X"
+
+# Custom CSS
+sass:
+  style: compressed
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
