@@ -1,39 +1,22 @@
-# Site settings
-title: "AI Portfolio"
-description: "Showcasing my AI Projects, Apps, and Services"
-url: "https://yourusername.github.io/ai-portfolio"  # Replace 'yourusername' with your GitHub username
-baseurl: "/"  # Leave as "/" for a root-level site
+# Site Settings
+title: "AI Portfolio | Modern Solutions"
+description: "Innovative AI Applications & Services"
+theme: slate
+baseurl: ""
 
-# Author settings
+# Author Settings
 author:
-  name: "Your Name"
-  email: "your.email@example.com"  # Replace with your email
-  url: "https://yourportfolio.com"  # Optional: If you have an external portfolio or website
+  name: "Abdul wahab"
+  bio: "AI Developer & Machine Learning Specialist"
+  github: "aiprojectlab"
 
-# Social Media Links (optional)
-social:
-  twitter: "yourtwitterhandle"  # Optional: your Twitter handle
-  github: "yourusername"        # GitHub username
-  linkedin: "your-linkedin-url" # Optional: your LinkedIn profile
+# Google Analytics (optional)
+google_analytics: "UA-XXXXXXXXX-X"
 
-# Theme settings
-theme: minima  # You can change this to any supported theme like 'slate', 'hacker', 'merlot', etc.
+# Custom CSS
+sass:
+  style: compressed
 
-# Navigation links (optional)
-nav:
-  - title: "Home"
-    url: "/"
-  - title: "Projects"
-    url: "/projects/"
-  - title: "Contact"
-    url: "/contact/"
-
-# Enable Markdown processing
+# Build settings
 markdown: kramdown
-
-# Site theme settings (only applicable if using specific themes that support customization)
-# Example for customizing 'minima' theme:
-minima:
-  # Theme options like fonts, colors can go here
-  # Example:
-  color: "black"  # Customize to your preferred theme colors
+highlighter: rouge
